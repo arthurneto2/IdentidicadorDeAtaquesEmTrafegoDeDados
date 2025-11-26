@@ -7,7 +7,7 @@ print("Carregando datasets...")
 train_df = pd.read_csv('train.csv')
 test_df = pd.read_csv('test.csv')
 
-# 2. Preparar Dados de Treino (Dataset Completo)
+# 2. Preparar Dados de Treino
 X_train = train_df.drop(['id', 'target'], axis=1)
 y_train = train_df['target']
 
@@ -21,7 +21,7 @@ X_test = test_df.drop(['id'], axis=1)
 # 4. Definir os Modelos do Ensemble
 print("Configurando o Ensemble...")
 
-# Modelo 1: Random Forest (Aumentamos para 300 árvores para mais estabilidade)
+# Modelo 1: Random Forest
 rf_clf = RandomForestClassifier(
     n_estimators=300, 
     random_state=42, 
@@ -43,7 +43,7 @@ voting_clf = VotingClassifier(
 )
 
 # 5. Treinamento
-print("Treinando o Ensemble (pode demorar um pouco mais)...")
+print("Treinando o Ensemble...")
 voting_clf.fit(X_train, y_train_encoded)
 
 # 6. Previsão
