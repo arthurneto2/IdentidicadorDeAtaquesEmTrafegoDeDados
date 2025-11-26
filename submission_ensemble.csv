@@ -194,7 +194,7 @@ id,target
 45967,attack
 22742,normal
 28579,attack
-7294,normal
+7294,attack
 38216,attack
 39258,attack
 36794,normal
@@ -9227,7 +9227,7 @@ id,target
 14618,attack
 35482,normal
 40641,attack
-9762,normal
+9762,attack
 27733,attack
 6812,normal
 46447,normal
@@ -9519,7 +9519,7 @@ id,target
 8760,normal
 11271,normal
 45117,normal
-28890,normal
+28890,attack
 3111,attack
 4252,normal
 14655,normal
@@ -12779,7 +12779,7 @@ id,target
 10042,attack
 7547,attack
 32984,attack
-18918,normal
+18918,attack
 19832,attack
 10365,attack
 39598,attack
@@ -15768,7 +15768,7 @@ id,target
 31837,attack
 36213,normal
 43905,attack
-23434,normal
+23434,attack
 45413,normal
 2426,normal
 28653,attack
@@ -17019,7 +17019,7 @@ id,target
 16135,attack
 37911,attack
 9484,attack
-12776,normal
+12776,attack
 23140,attack
 36740,normal
 40306,normal
@@ -18200,7 +18200,7 @@ id,target
 9474,normal
 22717,normal
 1519,normal
-12434,normal
+12434,attack
 24966,normal
 17145,normal
 7076,attack
@@ -18363,7 +18363,7 @@ id,target
 46753,normal
 35624,attack
 78,normal
-29114,normal
+29114,attack
 24366,normal
 21901,attack
 30712,normal
